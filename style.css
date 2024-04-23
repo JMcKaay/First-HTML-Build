@@ -1,0 +1,257 @@
+/*################# Defaults ###################*/
+
+
+img.Topimg{
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    padding: 5px;   
+}
+    a {color: black;}
+
+nav,header,footer {
+    display: block;
+
+}
+
+
+body{
+    line-height: 1;
+    margin: 0;
+     font-family: Domine , sans-serif;
+        background-image: linear-gradient(white,white,#0abab5 );
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.contianer {
+    display: block;
+    margin: auto;
+    background-image: linear-gradient(white, #8cdedc,#0abab5 );
+}
+
+footer {
+    text-align: center;
+    margin: 100px 0px 0px 0px;
+
+}
+
+
+   table {
+    float: left;
+    border-radius: 10px;
+    border: 3px solid ;
+    margin: 20px 0px 20px 9px;
+    text-align: center;
+    font-size: 35px;
+    width: 50%;
+              
+        }
+tr,th {
+            
+    border: 1px solid;
+    border-color: ;
+    margin: 0px 0px 0px 0px;
+    padding: 7px;
+        }
+
+img.Imgright{
+    width: 49%;
+    height:942px;
+    display: block;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    border-radius: 1000px
+}
+
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.Leftside-form {
+    display: block;
+    margin: auto;
+    margin: 0px 0px 0px 100px;
+  
+    
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+.inputbox{
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    vertical-align: text-top;
+    border-radius: 10px;
+    border: 3px solid ;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 3px solid ;
+}
+
+/*################ defualts ###############*/
+
+
+
+
+button {
+    display: block;
+    height: 25px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 5px 0px 0px 0px
+    
+}
+
+
+
+
+/*################ Nav Bar ###############*/
+
+
+
+nav {
+    
+    width: 100%;
+    margin: auto;
+}  
+
+nav ul {
+    margin: 0 auto;
+    overflow: hidden;  
+
+    width: 400px;
+}
+
+
+nav ul li{
+    float: left;
+    max-width: 100%;
+    margin: auto;
+    padding: 1px;
+    list-style-type: none;
+}
+
+ul.navbar li a {
+    
+    margin: auto;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border: 2px solid #67c9c5;
+    border-radius: 10px;
+    background-color: #fff;
+    min-height: 16px;
+}
+
+ul li a:hover {
+    border-radius: 10px;
+    background-color: cadetblue; 
+}
+
+li.dropdownicon {
+    display: none;
+}
+
+
+
+/*################################# Mobile #############################*/
+
+
+@media screen and (max-width: 680px) {
+    ul.navbar li:not(:nth-child(0)) {
+        display:none;
+    }   
+    
+    ul.navbar li.dropdownicon {
+        display: block;
+        float: inherit;
+        margin:auto;
+    }
+    
+    
+    ul.navbar.responsive li.dropdownicon {
+        position:inherit;
+        top: 0;
+        right: 0;
+    }
+    
+    
+    ul.navbar.responsive {
+        position: relative;
+    }
+    
+    ul.navbar.responsive li {
+        display: inline;
+        float: none;
+    }
+    
+    ul.navbar.repsonsive li a {
+        display: block;
+        text-align: left;
+        
+    }
+    
+    img.Topimg {
+        margin: auto;
+        display: block;
+    }
+    
+    
+    
+    table {
+        margin: auto;
+        width: 100%;
+        display: block;
+    }
+    
+
+    
+    .rightsideimg img {
+        margin: 20px 0px 0px 0px;
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 1000px;
+    }
+
+    .Leftside-form {
+        display: block;
+        width: 100%;
+        margin: 1400px 100px 0px 0px;
+      
+    }
+    
+
+    .Leftside-form textarea {
+        margin: auto;
+        display: block;
+        width: 200px;
+    }
+
+
+    

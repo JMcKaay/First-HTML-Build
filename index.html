@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Oak Tree Dog Grooming - Henlow</title>
+    <!-- CSS Styles -->
+        <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        
+    </head>
+    <style>
+    
+ </style>
+    
+    
+    
+    <body>
+<div class="homescreenphoto" id="HP-first-pic"> </div>
+    <img class="Topimg" src="Treeicon.jpg" alt="OakTreeIcon">
+       
+        
+        
+           <div class="col-12">
+        <nav>        
+            <b>
+    <ul class="navbar" id="NavigationRow">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Aboutus">About Us</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li class="dropdownicon" ><a href="javascript:void(0);"  onclick="dropdownMenu()">&#128054;</a>
+            </li>
+    </ul>
+            </b> 
+
+         </nav>
+        </div>
+  
+        
+    <div class="contianer">
+     <div class="TimeTable" id="section-1-gradient">
+         
+        <table>
+       
+            <tr>
+            <th>Day</th>
+            <th>Opening Times</th>
+            </tr>
+            <tr>
+            <th>Monday</th>
+                <th>08:30 - 17:00</th>
+            </tr>
+             <tr>
+            <th>Tuesday</th>
+                <th>08:30 - 17:00</th>
+            </tr>
+             <tr>
+            <th>Wednesday</th>
+                <th>08:30 - 17:00</th>
+            </tr>
+             <tr>
+            <th>Thursday</th>
+                <th>08:30 - 17:00</th>
+            </tr>
+             <tr>
+            <th>Friday</th>
+                <th>08:30 - 17:00</th>
+            </tr>
+             <tr>
+            <th>Saturday (Once a month)</th>
+                <th>08:30 - 15:00</th>  
+            </tr>
+            <tr>
+            <th>Sunday</th>
+                <th>Closed</th>
+              </tr>   
+           
+        </table>
+          </div>
+        </div>
+       
+               <div class="rightsideimg"> 
+    <img class="Imgright" src="BoxTile1.jpg" alt="DogGroomExample">
+    </div>  
+        
+      <form id="contactForm">  
+    <div class="Leftside-form">
+        <h2> Enquire Below</h2>
+        <h4> We aim to get back to you within 24Hrs.</h4>
+        <label for="name">Name</label>
+        <input class="inputbox" id="name" name="name" type="text" placeholder="Full Name">
+        <label for="number">Contact Number</label>
+        <input class="inputbox" name="number" id="number" type="text" placeholder="Number">
+        <label>Date & Time & Comments</label>
+        <textarea type="text" style="width: 700px; height:200px;"></textarea>
+           <button type="submit" onclick="handleSubmit(event)">Submit</button>
+        </div>
+        </form>
+      
+      
+ 
+        
+        
+    <footer>
+       <h3>Woof Woof</h3>
+        
+        </footer>      
+          
+       <script src="script.js"> 
+        </script>
+        
+        <script>
+           
+        function dropdownMenu(){
+            var x = document.getElementById("NavigationRow");
+        if (x.className === "navbar") {
+            x.className += " responsive";
+            /* change navbar to navbar.responsive*/
+            } else {
+                x.className = "navbar";
+            }
+        }
+           
+           
+        
+        </script>   
+        
+        
+        
+        
+        
+    </body>
+
+</html>
