@@ -1,2 +1,2 @@
 # First-HTML-Build
-First webpage made solely on HTML includes JS on button click
+First webpage made with HTML with inline Css . Includes JS on button click.
